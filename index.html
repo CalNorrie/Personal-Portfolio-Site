@@ -3,40 +3,45 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/800a52da80.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
         <title>Callum Norrie: Web Designer</title>
     </head>
     <body>
-        <nav>
+        <nav class="flex-container">
             <span><a href="">Home</a></span>
             <span><a href="#projects">Projects</a></span>
             <span><a href="">About</a></span>
         </nav>
         <main>
-            <img id="background" src="images/background.jpg">
             <section id="banner">
               <h1>Callum Norrie</h1>
               <h2>Web Design and App Development</h2>
               <br>
               <h3>Helping to put your best ideas forward</h3>
             </section>
+            <br>
+            <br>
             <section id="skills">
-                <h2>Skills:</h2>
-                <div id="techStack" >
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-css3-alt"></i>
-                    <i class="fab fa-js"></i>
+                <div id="techStack">
+                    <div>  
+                        <i class="fab fa-html5 fa-3x"></i>
+                        <i class="fab fa-css3-alt fa-3x"></i>
+                        <i class="fab fa-js fa-3x"></i>
+                    </div>
                     <br>
-                    <h3>Find me on Github:</h3>
-                    <a href="https://github.com/CalNorrie"><i class="fab fa-github"></i></a>
+                    <br>
+                    <div>
+                        <a href="https://github.com/CalNorrie"><h3>Find me on Github: <i class="fab fa-github fa-3x"></i></h3></a>
+                    </div>  
                 </div>
             </section>
             <section id="projects">
-                <details class="project">
-                    <summary class="project-title">
-                        <h3>Fortune Telling App</h3>
-                    </summary>
-                    <img class="project-image" src="/images/RMG.png" alt="A screenshot of JS code fore the fortune-telling app">
-                </details>
+                <div id="RMG">
+                    <details class="project">
+                        <summary class="project-title">Fortune Telling App</summary>
+                        <img class="project-image" src="images/RMG.png" alt="A screenshot of JS code fore the fortune-telling app">
+                    </details>
+                </div>
             </section>
         </main>
         <footer>
