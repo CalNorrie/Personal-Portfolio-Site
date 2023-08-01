@@ -68,6 +68,10 @@ summary {
     transition-delay: 0s;
 }
 
+.project p {
+    font-size: 24px;
+}
+
 .project img:hover {
     height: 849px;
     width: 1472px;
@@ -130,4 +134,10 @@ button:hover {
 
 button:active {
     color:#153250;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
 }
