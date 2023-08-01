@@ -1,5 +1,6 @@
 body {
     background-image: url(images/diffBackground.jpg);
+    margin: 20px;
 }
 
 .flex-container {
@@ -16,6 +17,7 @@ nav span a {
     background-color: #AC3B61;
     padding: 5px;
     font-weight: bold;
+    color:#fdcdb6;
 }
 
 nav span a:hover {
@@ -68,4 +70,54 @@ summary {
 .project img:hover {
     height: 849px;
     width: 1472px;
+}
+
+/* About Me section */
+
+#bio {
+    margin-top: 100px;
+}
+
+
+#bio img {
+    height: auto;
+    width: 20%; 
+    align-self: flex-end;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#bioText {
+    width: 49%;
+    justify-content: center;
+}
+
+#bioText p {
+    font-size: 24px;
+}
+
+#contact {
+    text-align: center;
+}
+
+label, input, textarea {
+    font-size: 24px;
+}
+
+button {
+    margin: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: #AC3B61;
+    padding: 5px;
+    font-weight: bold;
+    color:#fdcdb6;
+}
+
+button:hover {
+    background-color: #db799a;
+}
+
+button:active {
+    color:#153250;
 }
