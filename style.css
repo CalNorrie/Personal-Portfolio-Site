@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/background.jpg);
+    background-image: url(images/diffBackground.jpg);
 }
 
 .flex-container {
@@ -39,7 +39,21 @@ summary {
     font-size: 32px;
 }
 
-#skills {
+#skills, #projects {
     text-align: center;
     text-decoration: none;
+    margin-top: 100px;
+}
+
+.project img {
+    height: 799px;
+    width: 1422px;
+    transition-property: width, height;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+}
+
+.project img:hover {
+    height: 849px;
+    width: 1472px;
 }
