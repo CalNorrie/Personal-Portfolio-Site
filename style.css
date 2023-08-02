@@ -90,6 +90,8 @@ summary {
     align-self: flex-end;
     margin-top: 50px;
     margin-left: 20px;
+    min-height: 350px;
+    min-width: 350px;
 }
 
 #bioText {
@@ -140,4 +142,50 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 150px;
+}
+
+/* breakpoint stylings */
+
+@media only screen and (max-width : 1750px) {
+    .project img {
+        height: 377px;
+        width: 1000px;
+        transition-property: none;
+    }
+}
+
+@media only screen and (max-width : 1410px) {
+    #bio {
+        display: block;
+        text-align: center;
+    }
+
+    #bioText {
+        width: 100%;
+    }
+
+    .project img {
+        height: auto;
+        width: 100%;
+        transition-property: none;
+    }
+
+    #banner {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #userEmail {
+        width: 100%;
+    }
+
+    #userMessage {
+        width: 100%;
+        height: auto;
+    }
+
+    #bio img {
+        display: none;
+    }
 }
